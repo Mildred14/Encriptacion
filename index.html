@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>Hola, Bienvenido a TopSecret</h2>
+ <span  id="special">Top Secret</span>
     <h4>¿Cuál es tu TopSecret de hoy?</h4>
+    <p>Recuerda que puedes hacer de tu mensaje un secreto convirtiendolo en un encriptado</p>
     <input type="text" placeholder="Escribe tu mensaje" id="mensaje">
-    <input type="button" value="Convertir" onclick="leerMensaje()">
-    <input type="button" value="Traducir encriptacion" onclick="traducirMensaje()">
-    <input type="text" name="" id="mensajeConvertido"> 
+    <input type="text" name="" placeholder="Mensaje encriptado" id="mensajeConvertido"><br>
+    <input type="button" class="btn" value="Convertir" onclick="leerMensaje()"> <br>
+    <input type="button" class="btn"value="Traducir encriptacion" onclick="traducirMensaje()"> <br>
+    
     <script src="app.js"></script>
 </body>
 </html>

@@ -16,8 +16,8 @@ for(let i=0; i<mensaje.length;i++){
 
 }
 function traducirMensaje(){
+    limpiar()
     var mensaje=document.getElementById("mensaje").value.toLowerCase();
-limpiar()
 for(let i=0; i<mensaje.length;i++){
     for(let j=0; j<abecedario.length; j++){
        if (mensaje.charAt(i)==abecedario[j]){

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Curves";
+    src: url(fonts/Beauty\ in\ the\ Ordinary.ttf);
+}
+@font-face{
+    font-family: "Centabel";
+    src: url(fonts/centabel.ttf);
+}
+@font-face{
+    font-family: "Fog";
+    src: url(fonts/FogtwoNo5.ttf);
+}
+#special{
+    font-family: "Curves";
+    font-size: 60px;
+    color: #ff1174;
+}
+h4{
+    font-family: "Centabel";
+    font-size: 20px;
+}
+input{
+    font-family: "Fog";
+    font-size: 14px;
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+}
+.btn{
+    font-family: "Fog";
+    font-size: 14px;
+    width: 150px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 140px;
+    border: none;
+}
+.btn:hover{
+    background-color: #ff1174;
+    color: white;
+}
